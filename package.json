@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/aws-apps/serverless-cake-ordering-system/issues"
   },
-  "homepage": "https://github.com/aws-apps/serverless-cake-ordering-system#readme"
+  "homepage": "https://github.com/aws-apps/serverless-cake-ordering-system#readme",
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
 }

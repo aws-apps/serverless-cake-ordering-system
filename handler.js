@@ -1,5 +1,9 @@
+const orderManager = require('./order-manager');
+
 module.exports = {
   createOrder: async(event) => {
+    const {body} = event;
+    const order = orderManager.createOrder(body);
     return {
       statusCode: 200,
       body: JSON.stringify({
