@@ -1,0 +1,25 @@
+{
+  "name": "serverless-cake-ordering-system",
+  "version": "1.0.0",
+  "description": "basic app to understand serverless concepts in aws",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws-apps/serverless-cake-ordering-system.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "lambda",
+    "cloudformation"
+  ],
+  "author": "Pradeep Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aws-apps/serverless-cake-ordering-system/issues"
+  },
+  "homepage": "https://github.com/aws-apps/serverless-cake-ordering-system#readme"
+}
